@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Weather</title>
+</head>
+
+<body>
+    <div id="weather">
+        <div id="card">
+            <h1>Weather</h1>
+            <h2 id="currentTemp">NaN°C</h2>
+            <div class="info">
+                <label for="country">Country</label>
+                <span class="country"></span>
+            </div>
+
+            <form action="#" method="post">
+                <div>
+                    <label for="latInput">Latitude</label>
+                    <input type="text" id="latInput">
+                </div>
+
+                <div>
+                    <label for="lonInput">Longitude</label>
+                    <input type="text" id="lonInput">
+                </div>
+
+                <button type="button">Submit</button>
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
